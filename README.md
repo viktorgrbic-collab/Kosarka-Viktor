@@ -1,2 +1,2 @@
-# Kosarka Viktor
+#Client Server app
 Klijent server aplikacija
