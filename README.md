@@ -58,8 +58,8 @@ This was developed as an academic/learning project to practice layered client-se
 
 How to run Kosarka-App
 
-Open in NetBeans — open the Kosarka Viktor folder; it has 3 modules: KosarkaZajednicki, KosarkaServer, KosarkaKlijent.
-Set up a database — create the tables (Country, League, Team, Player, Statistician) and add a dbconfig.properties file with your DB url, username, password. Add the matching JDBC driver jar to KosarkaServer.
-Build all 3 modules (shared module first, it's a dependency of the other two).
-Run KosarkaServer first — it starts listening for client connections.
-Run KosarkaKlijent — log in with a statistician account, then use the app (manage countries, leagues, teams, players).
+1.Open in NetBeans — open the Kosarka Viktor folder; it has 3 modules: KosarkaZajednicki, KosarkaServer, KosarkaKlijent.
+2.Set up a database — create the tables (Country, League, Team, Player, Statistician) and add a dbconfig.properties file with your DB url, username, password. Add the matching JDBC driver jar to KosarkaServer.
+3.Build all 3 modules (shared module first, it's a dependency of the other two).
+4.Run KosarkaServer first — it starts listening for client connections.
+5.Run KosarkaKlijent — log in with a statistician account, then use the app (manage countries, leagues, teams, players).
